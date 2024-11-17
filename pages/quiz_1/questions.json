@@ -1,0 +1,26 @@
+[
+    {
+      "question": "O que a teoria da relatividade explica?",
+      "choice1": "Como uma estrela morre",
+      "choice2": "Porque as coisas caem",
+      "choice3": "Como o espaço e o tempo trabalham juntos",
+      "choice4": "Explica as formas de vida",
+      "answer": 3
+    },
+    {
+      "question": "Quem foi responsavel por criar a Teoria da Gravidade?",
+      "choice1": "Albert Einstein",
+      "choice2": "Isaac Newton",
+      "choice3": "Stephen Hawking",
+      "choice4": "Robert Oppenheimer",
+      "answer": 2
+    },
+    {
+      "question": "o que é o fenomeno chamado lente gravitacional?",
+      "choice1": "Quando os astros se atraem",
+      "choice2": "Quando uma estrela morre e sua luz vai apagando",
+      "choice3": "Quando um meteoro aparece na horbita terrestre",
+      "choice4": "Quando a luz de uma estrela desvia perto de objetos massivos",
+      "answer": 4
+    }
+  ]

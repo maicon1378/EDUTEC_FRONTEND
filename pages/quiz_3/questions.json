@@ -1,0 +1,26 @@
+[
+    {
+      "question": "Como um buraco negro surge?",
+      "choice1": "Com a morte de uma estrela supermassiva",
+      "choice2": "Com a colisão de dois ou mais astros",
+      "choice3": "Com anti-materia",
+      "choice4": "eles não surgem",
+      "answer": 1
+    },
+    {
+      "question": "Quando foi capturada a primeira foto de um buraco negro?",
+      "choice1": "2019",
+      "choice2": "2020",
+      "choice3": "2021",
+      "choice4": "2022",
+      "answer": 1
+    },
+    {
+      "question": "o que é um buraco negro?",
+      "choice1": "Com a morte de uma estrela supermassiva bem antiga",
+      "choice2": "Um planeta extremamente denso",
+      "choice3": "Gigantesca concentração de matéria extremamente densa concentrada em volumes muito pequenos",
+      "choice4": "Nenhuma das respostas anteriores",
+      "answer": 3
+    }
+  ]

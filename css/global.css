@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+:root {
+    font-size: 62.5%;
+    --grey-1: #C4C4CC;
+    --grey-2: #E1E1E6;
+    --white: #FFF;
+    --green-blue: #02799D;
+    --green-blue-hover: #099ecb;
+    --home-bg: url(../../assets/mountains-universe-1.png);
+    --universo-bg: url(../../assets/mountains-universe-2.png);
+    --exploracao-bg: url(../../assets/mountains-universe-3.png);
+}
+
+body {
+    font-size: 1.6rem;
+    background-image: var(--home-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100svh;
+}

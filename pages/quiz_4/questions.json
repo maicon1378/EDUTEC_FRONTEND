@@ -1,0 +1,26 @@
+[
+    {
+      "question": "Qual o nome do ponto do buraco negro onde o espaço e o tempo deixam de existir?",
+      "choice1": "Singularidade",
+      "choice2": "Horizonte de eventos",
+      "choice3": "Ergosfera",
+      "choice4": "Exosfera",
+      "answer": 1
+    },
+    {
+      "question": "O que é um buraco negro?",
+      "choice1": "Uma especie de estrela",
+      "choice2": "Um abismo cósmico",
+      "choice3": "Uma especie de galaxia",
+      "choice4": "Um disco de acreção",
+      "answer": 2
+    },
+    {
+      "question": "Qual desses NÃO é uma parte do buraco negro?",
+      "choice1": "Horizonte de eventos",
+      "choice2": "Singularidade",
+      "choice3": "Ergosfera",
+      "choice4": "Exosfera",
+      "answer": 4
+    }
+  ]
