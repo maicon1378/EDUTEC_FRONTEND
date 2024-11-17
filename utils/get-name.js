@@ -1,16 +1,19 @@
 export async function getName() {
-    const token = localStorage.getItem("token")
-
-    if(!token) {
-        return
+    const token = localStorage.getItem('token');
+    if (!token) {
+        throw new Error('Token não disponível');
     }
 
-    const response = await fetch("http://localhost:3000/getName", {
+    const response = await fetch('http://localhost:3000/getname', {
         headers: {
-            "Authorization": token
+            'Authorization': `Bearer ${token}`
         }
-    }).then(response => response.json())
+    });
 
-    const nameP = document.querySelector(".user p")
-    nameP.innerText = `Usuário: ${response.name}`
+    if (!response.ok) {
+        throw new Error('Falha ao obter nome do usuário');
+    }
+
+    const data = await response.json();
+    return data.name;
 }

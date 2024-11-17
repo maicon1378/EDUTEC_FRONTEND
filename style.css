@@ -52,23 +52,24 @@ body {
     }
     
     a{
-    color: white;
+        color: white; 
+        display: inline-block;
     }
     
     a:hover{
-    color: rgb(126, 98, 143);
-    transition: 0.3s all;
+        color: rgb(126, 98, 143);
+        transition: 0.3s all;
     }
     
+
     #inscreva-se-btn{
-    border: 2px solid rgb(114, 77, 136);
-    padding: 10px;
-    border-radius: 15px;
+        border: 2px solid rgb(114, 77, 136);
+        border-radius: 15px;
     }
     
     #inscreva-se-btn:hover{
-    background-color: rgb(132, 14, 201);
-    color: white;
+        background-color: rgb(132, 14, 201);
+        color: white;
     }
     
     h1{
