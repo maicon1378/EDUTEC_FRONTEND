@@ -7,7 +7,7 @@ export async function verifytoken(url) {
     }
 
     // verificar se o token é valido
-    const response = await fetch("http://localhost:3000/verify", {
+    const response = await fetch("https://edutecbackend.vercel.app/verify", {
         headers: {
             "Authorization": token
         }
