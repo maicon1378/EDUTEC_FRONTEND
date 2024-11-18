@@ -59,7 +59,7 @@ scoreForm.addEventListener('submit', async (e) => {
         };
         console.log('Enviando requisição:', requestBody);
 
-        const response = await fetch('http://localhost:3000/update-xp', {
+        const response = await fetch("https://edutecbackend.vercel.app/update-xp", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
