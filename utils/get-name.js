@@ -4,7 +4,7 @@ export async function getName() {
         throw new Error('Token não disponível');
     }
 
-    const response = await fetch('https://edutecbackend.vercel.app/getname', {
+    const response = await fetch("https://edutecbackend.vercel.app/getname", {
         headers: {
             'Authorization': `Bearer ${token}`
         }

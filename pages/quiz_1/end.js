@@ -21,7 +21,7 @@ async function getUsername() {
     }
 
     try {
-        const response = await fetch('http://localhost:3000/getname', {
+        const response = await fetch("https://edutecbackend.vercel.app/getname", {
             headers: {
                 'Authorization': `Bearer ${token}`
             }
