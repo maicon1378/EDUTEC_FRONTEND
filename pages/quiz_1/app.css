@@ -9,13 +9,20 @@
   }
   
 
-  
+  h1,
+  h2,
+  h3,
+  h4{
+    color: #fff;
+  }
   h1 {
     font-size: 5.4rem;
     color: #fff;
     margin-bottom: 5rem;
   }
-  
+  .hud-prefix{
+    color: #fff;
+  }
   h1 > span {
     font-size: 2.4rem;
     font-weight: 500;

@@ -1,6 +1,10 @@
 :root {
-    background-color: rgb(247, 247, 247);
     font-size: 62.5%;
+  }
+  
+  body{
+    background-image: url(../../img/fictional-planet-with-colourful-night-sky-stars-nebula.jpg);
+    background-size: cover;
   }
   
   
@@ -8,12 +12,12 @@
   h2,
   h3,
   h4 {
-    margin-bottom: 1rem;
+    color: #fff;
   }
   
   h1 {
     font-size: 5.4rem;
-    color: #4b6acf;
+    color: #fff;
     margin-bottom: 5rem;
   }
   
@@ -80,10 +84,10 @@
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid hsl(234, 100%, 66%);
+    border: 0.1rem solid #fff;
     margin-bottom: 2rem;
     text-decoration: none;
-    color: #385dff;
+    color: #fff;
     background-color: rgba(255, 255, 255, 0);
   }
   

@@ -43,6 +43,7 @@
   .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    color: #fff;;
   }
   
   .hud-main-text {
@@ -58,7 +59,7 @@
   }
   
   #progressBarFull {
-    height: 3.4rem;
+    height: 4rem;
     background-color: #56a5eb;
     width: 0%;
   }
