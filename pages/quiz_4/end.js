@@ -21,7 +21,7 @@ async function getUsername() {
     }
 
     try {
-        const response = await fetch("https://edutecbackend.vercel.app/getname", {
+        const response = await fetch("https://edutecbackend2.vercel.app/getname", {
             headers: {
                 'Authorization': `Bearer ${token}`
             }
@@ -59,7 +59,7 @@ scoreForm.addEventListener('submit', async (e) => {
         };
         console.log('Enviando requisição:', requestBody);
 
-        const response = await fetch("https://edutecbackend.vercel.app/update-xp", {
+        const response = await fetch("https://edutecbackend2.vercel.app/update-xp", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

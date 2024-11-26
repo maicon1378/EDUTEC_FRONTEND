@@ -22,7 +22,7 @@ async function register() {
         password
     }
     
-    const response = await fetch("https://edutecbackend.vercel.app/register", {
+    const response = await fetch("https://edutecbackend2.vercel.app/register", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

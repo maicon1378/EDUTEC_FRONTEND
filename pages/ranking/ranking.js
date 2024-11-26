@@ -19,7 +19,7 @@ async function fetchRanking() {
     showLoading();
     try {
         console.log("Buscando dados do ranking...");
-        const response = await fetch("https://edutecbackend.vercel.app/ranking");
+        const response = await fetch("https://edutecbackend2.vercel.app/ranking");
         const data = await response.json();
 
         console.log("Dados do ranking recebidos:", data);

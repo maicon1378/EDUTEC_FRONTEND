@@ -12,7 +12,7 @@ async function login() {
         password
     }
 
-    const response = await fetch("https://edutecbackend.vercel.app/login", {
+    const response = await fetch("https://edutecbackend2.vercel.app/login", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
