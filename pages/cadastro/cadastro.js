@@ -30,7 +30,7 @@ async function register() {
         body: JSON.stringify({  user })
     }).then(response => response.json())
     
-    alert(response.massage)
+    alert(response.message)
 
     if(response.userExists) {
         window.location.reload()
